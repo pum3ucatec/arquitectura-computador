@@ -10,4 +10,4 @@
         - Sistemas Numéricos: Utilizar formatos como binario, decimal, octal o hexadecimal para representar valores numéricos y operar con ellos dentro de un sistema digital.
         - Codificación: Traducir información mediante códigos como ASCII, Unicode, o sistemas de compresión para comunicación, almacenamiento y procesamiento.
         - Elementos Electrónicos y Lógicos: Incorporar hardware como puertas lógicas, circuitos integrados y otros componentes que ejecuten las operaciones basadas en estos sistemas.
-        - Sincronización: Establecer reglas o protocolos que coordinen cómo los datos y operaciones fluyen entre los diferentes elementos
+        - Sincronización: Establecer reglas o protocolos que coordinen cómo los datos y operaciones fluyen entre los diferentes elementos.
