@@ -1,6 +1,9 @@
-# 📚 ÁLGEBRA DE BOOLE EXPLICADA PARA PRINCIPIANTES
+## TEMA 3
 
-## 🔍 ¿QUÉ ES EL ÁLGEBRA DE BOOLE?
+# 📚 ÁLGEBRA DE BOOLE EXPLICADA
+
+
+1. ## 🔍 ¿QUÉ ES EL ÁLGEBRA DE BOOLE?
 Es como el "idioma" de las computadoras. Trabaja solo con:
 - **2 números**: 0 (Falso/Apagado) y 1 (Verdadero/Encendido)
 - **3 operaciones básicas**:
@@ -11,7 +14,7 @@ Es como el "idioma" de las computadoras. Trabaja solo con:
 | **OR** (O) | + | A+B | Es 1 si AL MENOS UNO es 1 |
 | **NOT** (NO) | ¬ | ¬A | Invierte el valor (1→0, 0→1) |
 
-## 📝 LEYES BÁSICAS (CON EJEMPLOS)
+2. ## 📝 LEYES BÁSICAS (CON EJEMPLOS)
 
 ### 1️⃣ Leyes de Identidad
 - **A + 0 = A**  

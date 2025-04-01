@@ -1,19 +1,21 @@
+## TEMA 1
+
 # INTRODUCCION A LA ELECTRONICA DIGITAL
 
 
-# REPRESENTACIÓN NUMÉRICA EN COMPUTACIÓN
+# 1.- REPRESENTACIÓN NUMÉRICA EN COMPUTACIÓN
 
 ## 🔢 SISTEMAS NUMÉRICOS
 
-1. **BINARIO (Base 2)**  
+ **BINARIO (Base 2)**  
    - Dígitos: 0, 1  
    - Ejemplo: 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11₁₀  
 
-2. **OCTAL (Base 8)**  
+ **OCTAL (Base 8)**  
    - Dígitos: 0-7  
    - Ejemplo: 34₈ = 3×8¹ + 4×8⁰ = 24 + 4 = 28₁₀  
 
-3. **DECIMAL (Base 10)**  
+ **DECIMAL (Base 10)**  
    - Dígitos: 0-9  
    - Conversión a binario:  
      25 ÷ 2 = 12 (1)  
@@ -22,7 +24,7 @@
      3 ÷ 2 = 1 (1)  
      1 ÷ 2 = 0 (1) → 11001₂  
 
-4. **HEXADECIMAL (Base 16)**  
+ **HEXADECIMAL (Base 16)**  
    - Dígitos: 0-9, A-F  
    - Ejemplos:  
      - A3₁₆ = 10×16 + 3 = 163₁₀  
