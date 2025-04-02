@@ -1,8 +1,40 @@
 # SISTEMAS NUMÉRICOS Y CÓDIGOS
 
+# 📌 2.3. Sistemas de Numeración Octal
 
+## Introducción
 
+El sistema de numeración octal es un sistema de base 8 que utiliza los dígitos del 0 al 7 para representar números. Es especialmente útil en el ámbito de la informática y la programación, ya que permite representar números binarios de manera más compacta agrupando bits en conjuntos de tres.
 
+El sistema octal se utiliza en aplicaciones donde la manipulación de bits es fundamental, como en sistemas embebidos, programación a bajo nivel y desarrollo de software relacionado con sistemas operativos.
+
+## ¿Por qué usar el sistema octal?
+
+El sistema octal resulta útil en situaciones donde es necesario simplificar cadenas largas de números binarios. Dado que cada dígito octal corresponde exactamente a tres bits binarios, su conversión es directa y eficiente.
+
+## 📝 Ejemplo:
+
+Binario: 110 101 -> Octal: 65
+
+Además, el sistema octal es más compacto que el binario y más fácil de manejar visualmente al trabajar con datos en bajo nivel.
+
+# 📌 2.4. Sistemas de Numeración Hexadecimal
+
+## Introducción
+
+El sistema de numeración hexadecimal es un sistema de base 16 que utiliza los dígitos del 0 al 9 y las letras de la A a la F para representar números. Es ampliamente utilizado en informática y programación debido a su capacidad para representar números binarios de manera más compacta, agrupando bits en conjuntos de cuatro.
+
+El sistema hexadecimal es común en el desarrollo de software de bajo nivel, depuración, representación de direcciones de memoria y codificación de colores en diseño web.
+
+## ¿Por qué usar el sistema hexadecimal?
+
+El sistema hexadecimal resulta útil porque permite expresar números binarios largos de forma más compacta y legible. Cada dígito hexadecimal equivale a cuatro bits binarios, lo que simplifica su conversión y manipulación.
+
+## 📝 Ejemplo:
+
+Binario: 1010 1111 -> Hexadecimal: AF
+
+Además, su uso es fundamental al trabajar con registros, direcciones de memoria y datos en el contexto de sistemas y programación a bajo nivel.
 
 
 

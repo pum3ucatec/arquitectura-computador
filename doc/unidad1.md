@@ -58,3 +58,24 @@
 - Octal: chmod 755 (permisos archivos)  
 - Hex: #FFFFFF (colores web), 0x7FFF (direcciones memoria)  
 
+# 📌 3. Conversiones entre Sistemas Numéricos
+
+En computación y matemáticas, un sistema numérico es un conjunto de reglas y símbolos utilizados para representar números. Existen varios sistemas 
+numéricos, pero los más comunes son:
+
+•	Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
+•	Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
+•	Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
+•	Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
+
+## Importancia de las conversiones
+
+La conversión entre estos sistemas es fundamental en programación, electrónica digital y redes de computadoras. Por ejemplo, un programador puede necesitar convertir un número decimal a binario para entender mejor cómo lo procesa una computadora.
+
+## 📝 Métodos de Conversión
+
+Las conversiones entre sistemas numéricos pueden realizarse de varias maneras:
+
+1.	De Decimal a Otra Base: Dividiendo sucesivamente entre la base de destino y anotando los residuos.
+2.	De Otra Base a Decimal: Multiplicando cada dígito por la base elevada a su posición correspondiente.
+3.	Entre Bases Diferentes (Binario, Octal, Hexadecimal): Usando conversiones intermedias a decimal o mediante reglas directas.
