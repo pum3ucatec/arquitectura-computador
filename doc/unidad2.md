@@ -1,12 +1,48 @@
 # SISTEMAS NUMÉRICOS Y CÓDIGOS
 
+# 📌 2.3. Sistemas de Numeración Octal
 
+## Introducción
 
+El sistema de numeración octal es un sistema de base 8 que utiliza los dígitos del 0 al 7 para representar números. Es especialmente útil en el ámbito de la informática y la programación, ya que permite representar números binarios de manera más compacta agrupando bits en conjuntos de tres.
 
+El sistema octal se utiliza en aplicaciones donde la manipulación de bits es fundamental, como en sistemas embebidos, programación a bajo nivel y desarrollo de software relacionado con sistemas operativos.
 
+## ¿Por qué usar el sistema octal?
 
+El sistema octal resulta útil en situaciones donde es necesario simplificar cadenas largas de números binarios. Dado que cada dígito octal corresponde exactamente a tres bits binarios, su conversión es directa y eficiente.
 
+## 📝 Ejemplo:
 
+Binario: 110 101 -> Octal: 65
+
+# 📌 2.4. Sistemas de Numeración Hexadecimal
+
+## Introducción
+
+El sistema de numeración hexadecimal es un sistema de base 16 que utiliza los dígitos del 0 al 9 y las letras de la A a la F para representar números. Es ampliamente utilizado en informática y programación debido a su capacidad para representar números binarios de manera más compacta, agrupando bits en conjuntos de cuatro.
+
+El sistema hexadecimal es común en el desarrollo de software de bajo nivel, depuración, representación de direcciones de memoria y codificación de colores en diseño web.
+
+## ¿Por qué usar el sistema hexadecimal?
+
+El sistema hexadecimal resulta útil porque permite expresar números binarios largos de forma más compacta y legible. Cada dígito hexadecimal equivale a cuatro bits binarios, lo que simplifica su conversión y manipulación.
+
+## 📝 Ejemplo:
+
+Binario: 1010 1111 -> Hexadecimal: AF
+
+## 2.5 Códigos BCD (Binary-Coded Decimal)
+    El código BCD es un sistema de representación de números decimales en formato binario. Cada dígito decimal (del 0 al 9) se codifica utilizando 4 bits. Por ejemplo:
+    Decimal 5 → BCD: 0101
+    Decimal 9 → BCD: 1001
+    Este sistema es útil porque facilita la conversión entre números decimales y binarios, especialmente en aplicaciones como pantallas de 7 segmentos y sistemas electrónicos. Sin embargo, no es tan eficiente como el binario puro, ya que utiliza más bits para representar los mismos valores.
+## 2.6 Como integrar los distintos elementos    
+    Integrar los distintos elementos de sistemas numéricos y códigos implica combinar las representaciones y mecanismos que permiten operar con datos de manera eficiente y estructurada. Esto incluye:
+        - Sistemas Numéricos: Utilizar formatos como binario, decimal, octal o hexadecimal para representar valores numéricos y operar con ellos dentro de un sistema digital.
+        - Codificación: Traducir información mediante códigos como ASCII, Unicode, o sistemas de compresión para comunicación, almacenamiento y procesamiento.
+        - Elementos Electrónicos y Lógicos: Incorporar hardware como puertas lógicas, circuitos integrados y otros componentes que ejecuten las operaciones basadas en estos sistemas.
+        - Sincronización: Establecer reglas o protocolos que coordinen cómo los datos y operaciones fluyen entre los diferentes elementos.
 
 
 

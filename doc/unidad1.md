@@ -1,6 +1,13 @@
 ## TEMA 1
 
 # INTRODUCCION A LA ELECTRONICA DIGITAL
+# 1 Electrónica Digital
+    La electrónica digital es una rama de la electrónica que trabaja con señales digitales en lugar de analógicas. Las señales digitales solo tienen dos estados posibles: **alto (1)** y **bajo (0)**. Estos estados se representan comúnmente como números binarios y son la base de sistemas como computadoras, teléfonos móviles y otros dispositivos electrónicos modernos.
+    
+        - **Alto (1)**: Representa un nivel de voltaje más alto en el circuito digital. Este estado está asociado con "encendido" o un estado activo.
+        - **Bajo (0)**: Corresponde a un nivel de voltaje más bajo. Este estado se asocia con "apagado" o inactividad.
+
+    En un sistema digital, los componentes clave son los circuitos digitales, que están formados por **puertas lógicas**. Estas puertas lógicas procesan las señales binarias siguiendo reglas específicas para realizar operaciones como sumas, comparaciones, etc. Por ejemplo, el procesador de una computadora es un circuito digital muy complejo que realiza millones de operaciones basadas en combinaciones de los estados alto y bajo.
 
 
 # 2. REPRESENTACIÓN NUMÉRICA EN COMPUTACIÓN
@@ -58,3 +65,24 @@
 - Octal: chmod 755 (permisos archivos)  
 - Hex: #FFFFFF (colores web), 0x7FFF (direcciones memoria)  
 
+# 📌 3. Conversiones entre Sistemas Numéricos
+
+En computación y matemáticas, un sistema numérico es un conjunto de reglas y símbolos utilizados para representar números. Existen varios sistemas 
+numéricos, pero los más comunes son:
+
+•	Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
+•	Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
+•	Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
+•	Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
+
+## Importancia de las conversiones
+
+La conversión entre estos sistemas es fundamental en programación, electrónica digital y redes de computadoras. Por ejemplo, un programador puede necesitar convertir un número decimal a binario para entender mejor cómo lo procesa una computadora.
+
+## 📝 Métodos de Conversión
+
+Las conversiones entre sistemas numéricos pueden realizarse de varias maneras:
+
+1.	De Decimal a Otra Base: Dividiendo sucesivamente entre la base de destino y anotando los residuos.
+2.	De Otra Base a Decimal: Multiplicando cada dígito por la base elevada a su posición correspondiente.
+3.	Entre Bases Diferentes (Binario, Octal, Hexadecimal): Usando conversiones intermedias a decimal o mediante reglas directas.
