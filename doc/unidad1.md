@@ -10,7 +10,7 @@
     En un sistema digital, los componentes clave son los circuitos digitales, que están formados por **puertas lógicas**. Estas puertas lógicas procesan las señales binarias siguiendo reglas específicas para realizar operaciones como sumas, comparaciones, etc. Por ejemplo, el procesador de una computadora es un circuito digital muy complejo que realiza millones de operaciones basadas en combinaciones de los estados alto y bajo.
 
 
-# 1.- REPRESENTACIÓN NUMÉRICA EN COMPUTACIÓN
+# 2. REPRESENTACIÓN NUMÉRICA EN COMPUTACIÓN
 
 ## 🔢 SISTEMAS NUMÉRICOS
 
