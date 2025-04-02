@@ -90,3 +90,23 @@ Las conversiones entre sistemas numéricos pueden realizarse de varias maneras:
 1.	De Decimal a Otra Base: Dividiendo sucesivamente entre la base de destino y anotando los residuos.
 2.	De Otra Base a Decimal: Multiplicando cada dígito por la base elevada a su posición correspondiente.
 3.	Entre Bases Diferentes (Binario, Octal, Hexadecimal): Usando conversiones intermedias a decimal o mediante reglas directas.
+
+
+ # 4. Códigos Binarios ✨🔋
+La electrónica digital es la base de todos los dispositivos modernos 🖥️📱. Se encarga de procesar información en forma de señales binarias (0 y 1), que representan dos estados: apagado (0) y encendido (1) 🔴🟢.
+
+📌 ¿Qué son los códigos binarios?
+Un código binario es un sistema de representación donde cada número o dato se expresa con ceros y unos (bits) 🏁. Es la base de la comunicación entre los circuitos electrónicos y los procesadores.
+
+🔢 Tipos de códigos binarios más usados
+✅ Código BCD (Decimal Codificado en Binario): Representa números decimales usando 4 bits por dígito. Ejemplo: el 9 en BCD es 1001.
+✅ Código ASCII: Asigna valores binarios a caracteres como letras y símbolos ✍️💾.
+✅ Código Gray: Se usa en sensores y telecomunicaciones porque solo cambia un bit entre valores consecutivos 🔄.
+✅ Código Excess-3: Una variante del BCD utilizada en algunos sistemas digitales.
+
+⚡ Importancia de los códigos binarios
+📡 Permiten la comunicación entre dispositivos electrónicos.
+🖥️ Son la base del almacenamiento y procesamiento de datos.
+🔍 Se utilizan en sistemas digitales como computadoras, teléfonos y circuitos lógicos.
+
+La electrónica digital y los códigos binarios hacen posible la tecnología moderna 🚀🤖. ¡Todo lo que ves en pantallas o dispositivos electrónicos funciona gracias a ellos!
