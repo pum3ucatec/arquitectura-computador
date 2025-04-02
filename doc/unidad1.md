@@ -70,10 +70,10 @@
 En computación y matemáticas, un sistema numérico es un conjunto de reglas y símbolos utilizados para representar números. Existen varios sistemas 
 numéricos, pero los más comunes son:
 
-•	Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
-•	Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
-•	Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
-•	Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
+1. Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
+2. Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
+3. Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
+4. Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
 
 ## Importancia de las conversiones
 
