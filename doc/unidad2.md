@@ -1,5 +1,30 @@
 # SISTEMAS NUMÉRICOS Y CÓDIGOS
 
+🟢 2.1. Conversión de Binario a Decimal
+Los números binarios están compuestos solo por 0 y 1 ⚫⚪. Para convertirlos a decimal, se usa la potencia de 2 en cada dígito según su posición.
+
+✅ Ejemplo: Convertir el binario 1011 a decimal:
+1 × 2³ + 0 × 2² + 1 × 2¹ + 1 × 2⁰
+= 8 + 0 + 2 + 1
+= 11
+📌 Regla clave: Multiplica cada bit por 2 elevado a su posición, y luego suma los resultados.
+
+🟢 2.2. Conversión de Decimal a Binario
+Para pasar de decimal a binario, se divide el número entre 2 hasta obtener un cociente de 0, y se leen los residuos de abajo hacia arriba 📈.
+
+✅ Ejemplo: Convertir el decimal 13 a binario:
+13 ÷ 2  → Cociente: 6   Residuo: 1  
+6  ÷ 2  → Cociente: 3   Residuo: 0  
+3  ÷ 2  → Cociente: 1   Residuo: 1  
+1  ÷ 2  → Cociente: 0   Residuo: 1  
+✔ Resultado final: 1101 🖥️
+
+📌 Regla clave: Divide entre 2 y guarda los residuos, luego léelos en orden inverso 🔄.
+
+📊 Conclusión:
+Las conversiones entre binario y decimal son fundamentales en la computación 💻, ya que las computadoras procesan información en código binario. ¡Dominarlas te hará comprender mejor cómo funciona la tecnología! 🚀
+
+
 # 📌 2.3. Sistemas de Numeración Octal
 
 ## Introducción
@@ -82,65 +107,6 @@ El método de paridad detecta errores en datos transmitidos añadiendo un bit ex
 * Códigos de Hamming (corrección de errores).
 * CRC (detección de errores múltiples).
 * Códigos Reed-Solomon (corrección de errores múltiples).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
