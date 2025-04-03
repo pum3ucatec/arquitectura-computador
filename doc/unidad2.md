@@ -1,6 +1,6 @@
 # SISTEMAS NUMÉRICOS Y CÓDIGOS
 
-🟢 2.1. Conversión de Binario a Decimal
+ # 2.1. Conversión de Binario a Decimal
 Los números binarios están compuestos solo por 0 y 1 ⚫⚪. Para convertirlos a decimal, se usa la potencia de 2 en cada dígito según su posición.
 
 ✅ Ejemplo: Convertir el binario 1011 a decimal:
@@ -9,7 +9,7 @@ Los números binarios están compuestos solo por 0 y 1 ⚫⚪. Para convertirlos
 = 11
 📌 Regla clave: Multiplica cada bit por 2 elevado a su posición, y luego suma los resultados.
 
-🟢 2.2. Conversión de Decimal a Binario
+# 2.2. Conversión de Decimal a Binario
 Para pasar de decimal a binario, se divide el número entre 2 hasta obtener un cociente de 0, y se leen los residuos de abajo hacia arriba 📈.
 
 ✅ Ejemplo: Convertir el decimal 13 a binario:
