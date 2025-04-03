@@ -71,6 +71,84 @@ Integrar los distintos elementos de sistemas numéricos y códigos implica combi
 - Elementos Electrónicos y Lógicos: Incorporar hardware como puertas lógicas, circuitos integrados y otros componentes que ejecuten las operaciones basadas en estos sistemas.
 - Sincronización: Establecer reglas o protocolos que coordinen cómo los datos y operaciones fluyen entre los diferentes elementos.
 
+## 2.7 Código Gray
+
+### 📌 Definición
+
+El **código Gray** es un sistema de codificación binaria en el cual **dos números consecutivos difieren únicamente en un solo bit**. También se conoce como **código binario reflejado**, y es ampliamente utilizado en sistemas donde se desea **minimizar errores durante la transición** entre estados.
+
+### 🎯 Propósito
+
+- Reducir errores de lectura en sistemas donde los bits cambian rápidamente.
+- Asegurar una transición **segura y controlada** entre estados binarios.
+
+### 🧪 Ejemplo Comparativo
+
+| Decimal | Binario | Código Gray |
+|---------|---------|-------------|
+| 0       | 000     | 000         |
+| 1       | 001     | 001         |
+| 2       | 010     | 011         |
+| 3       | 011     | 010         |
+| 4       | 100     | 110         |
+| 5       | 101     | 111         |
+| 6       | 110     | 101         |
+| 7       | 111     | 100         |
+
+> 💡 **Nota:** En cada transición, solo **un bit cambia** respecto al anterior.
+
+### ✅ Ventajas
+
+- Disminuye la probabilidad de errores de transición.
+- Ideal para **encoders rotatorios**, **conversores ADC**, y sensores digitales.
+
+### 📍 Aplicaciones
+
+- Sistemas de medición angular (encoders ópticos).
+- Equipos industriales con movimiento rotativo.
+- Conversores analógicos a digitales (ADC).
+
+---
+
+## 2.8 Códigos Alfanuméricos
+
+### 📌 Definición
+
+Los **códigos alfanuméricos** son sistemas binarios diseñados para representar **letras, números y símbolos especiales**. Permiten que los sistemas digitales puedan **leer, escribir y procesar texto**.
+
+### 💻 Código ASCII (American Standard Code for Information Interchange)
+
+Es el estándar más común. Utiliza **7 bits** (o 8 bits en su versión extendida) para representar hasta **128** o **256** caracteres, incluyendo letras, números, signos de puntuación y caracteres de control.
+
+### 🧪 Ejemplo de Tabla ASCII
+
+| Carácter | Decimal | Binario    |
+|----------|---------|------------|
+| A        | 65      | 01000001   |
+| B        | 66      | 01000010   |
+| 1        | 49      | 00110001   |
+| !        | 33      | 00100001   |
+| espacio  | 32      | 00100000   |
+
+### 🔠 Otros Códigos Alfanuméricos
+
+- **EBCDIC:** Utilizado en sistemas IBM.
+- **Unicode:** Código moderno y universal que permite representar símbolos de **todos los idiomas del mundo**, emojis, símbolos científicos, etc.
+
+### ✅ Ventajas
+
+- Posibilita el uso de texto en sistemas digitales.
+- Facilita la **interoperabilidad entre sistemas** mediante el uso de estándares comunes.
+
+### 📍 Aplicaciones
+
+- Comunicación entre computadoras y periféricos.
+- Almacenamiento y edición de texto.
+- Programación de sistemas embebidos.
+- Visualización de datos en pantallas digitales.
+
+---
+
 
 
 
