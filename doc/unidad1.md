@@ -114,3 +114,80 @@ Un código binario es un sistema de representación donde cada número o dato se
 🔍 Se utilizan en sistemas digitales como computadoras, teléfonos y circuitos lógicos.
 
 La electrónica digital y los códigos binarios hacen posible la tecnología moderna 🚀🤖. ¡Todo lo que ves en pantallas o dispositivos electrónicos funciona gracias a ellos!
+
+ # 5. Códigos Detectores
+
+Los códigos detectores son secuencias de bits agregadas a los datos transmitidos con el objetivo de detectar e incluso corregir errores que puedan ocurrir durante la transmisión o almacenamiento. Estos códigos son fundamentales para garantizar la integridad de la información en sistemas digitales.
+
+🧠 ¿Cómo Funcionan?
+Transmisión:
+ El transmisor agrega bits adicionales (de paridad o corrección) al mensaje original según el tipo de código usado.
+
+Recepción:
+ El receptor analiza estos bits agregados para verificar la integridad de los datos y detectar posibles errores.
+
+Corrección (en algunos casos):
+ Algunos códigos permiten no solo detectar errores, sino corregir automáticamente aquellos que sean simples.
+
+🧩 Tipos Comunes de Códigos Detectores
+✔️ 1. Código de Paridad
+Agrega un solo bit de control (bit de paridad) al conjunto de datos.
+
+El bit de paridad puede ser par (even) o impar (odd):
+
+Paridad par: El número total de 1s (incluido el bit de paridad) debe ser par.
+
+Paridad impar: El número total de 1s debe ser impar.
+
+Capacidad: Detecta errores de un solo bit.
+
+Limitación: No puede corregir errores, ni detectar errores múltiples.
+
+🛠️ 2. Código de Hamming
+Introduce varios bits de control en posiciones específicas.
+Permite:
+
+Detección de errores de uno o más bits.
+
+Corrección automática de errores de un solo bit.
+
+Usa una técnica de verificación cruzada entre múltiples posiciones.
+
+📦 3. Códigos de Bloque
+Agrupan los datos en bloques de longitud fija.
+Se añaden bits de verificación a cada bloque.
+Capaces de:
+
+Detectar errores múltiples.
+
+Corregir múltiples errores dependiendo de la estructura usada (por ejemplo, códigos Reed-Solomon).
+
+Muy utilizados en sistemas que manejan grandes volúmenes de datos.
+
+🚀 Aplicaciones
+Los códigos detectores son fundamentales en áreas donde la confiabilidad de los datos es crítica:
+Redes de comunicación digital (Wi-Fi, Ethernet, etc.)
+
+Memorias RAM y ROM
+
+Discos duros y SSDs
+
+Comunicaciones por satélite
+
+Transmisiones multimedia (audio/video digital)
+
+Sistemas embebidos y microcontroladores
+
+✅ Ventajas
+Fiabilidad: Aseguran que los datos no se corrompan durante la transmisión o almacenamiento.
+
+Corrección automática: Algunos códigos permiten corregir errores sin intervención externa, mejorando la eficiencia del sistema.
+
+Detección rápida: Identifican errores de manera inmediata, evitando procesamiento adicional de datos corruptos.
+
+❌ Desventajas
+Sobrecarga de datos: La adición de bits extra incrementa el tamaño de la transmisión, lo que puede afectar el rendimiento.
+
+Complejidad: Algunos métodos como Hamming o Reed-Solomon requieren procesamiento adicional y hardware/software más complejo para su implementación.
+
+Limitación en detección: Ciertos códigos no pueden detectar errores múltiples o corregir más de un bit.
