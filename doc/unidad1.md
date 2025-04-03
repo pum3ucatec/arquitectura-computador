@@ -18,28 +18,13 @@ Por ejemplo, el procesador de una computadora es un circuito digital muy complej
 
 ## 🔢 SISTEMAS NUMÉRICOS
 
- **BINARIO (Base 2)**  
-   - Dígitos: 0, 1  
-   - Ejemplo: 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11₁₀  
+En computación y matemáticas, un sistema numérico es un conjunto de reglas y símbolos utilizados para representar números. Existen varios sistemas 
+numéricos, pero los más comunes son:
 
- **OCTAL (Base 8)**  
-   - Dígitos: 0-7  
-   - Ejemplo: 34₈ = 3×8¹ + 4×8⁰ = 24 + 4 = 28₁₀  
-
- **DECIMAL (Base 10)**  
-   - Dígitos: 0-9  
-   - Conversión a binario:  
-     25 ÷ 2 = 12 (1)  
-     12 ÷ 2 = 6 (0)  
-     6 ÷ 2 = 3 (0)  
-     3 ÷ 2 = 1 (1)  
-     1 ÷ 2 = 0 (1) → 11001₂  
-
- **HEXADECIMAL (Base 16)**  
-   - Dígitos: 0-9, A-F  
-   - Ejemplos:  
-     - A3₁₆ = 10×16 + 3 = 163₁₀  
-     - 45₁₀ → 2D₁₆ (45÷16=2 resto 13(D), 2÷16=0 resto 2)  
+1. Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
+2. Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
+3. Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
+4. Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
 
 ## 🔄 CONVERSIONES RÁPIDAS
 
@@ -71,13 +56,32 @@ Por ejemplo, el procesador de una computadora es un circuito digital muy complej
 
 # 📌 3. Conversiones entre Sistemas Numéricos
 
-En computación y matemáticas, un sistema numérico es un conjunto de reglas y símbolos utilizados para representar números. Existen varios sistemas 
-numéricos, pero los más comunes son:
+## Sitemas numéricos 
 
-1. Decimal (Base 10): Es el sistema que usamos en la vida cotidiana, basado en diez dígitos (0-9).
-2. Binario (Base 2): Utilizado en computación, emplea solo dos dígitos: 0 y 1.
-3. Octal (Base 8): Usa ocho dígitos (0-7) y a veces se usa en programación.
-4. Hexadecimal (Base 16): Usa dieciséis símbolos (0-9 y A-F) y es común en informática para representar direcciones de memoria y colores en HTML.
+La conversión entre sistemas numéricos es una habilidad esencial para los informáticos y matemáticos. Implica el proceso de convertir un número de una base a otra. Exinten varios pero los mas comunes son:
+
+**BINARIO (Base 2)**  
+   - Dígitos: 0, 1  
+   - Ejemplo: 1011₂ = 1×2³ + 0×2² + 1×2¹ + 1×2⁰ = 8 + 0 + 2 + 1 = 11₁₀  
+
+ **OCTAL (Base 8)**  
+   - Dígitos: 0-7  
+   - Ejemplo: 34₈ = 3×8¹ + 4×8⁰ = 24 + 4 = 28₁₀  
+
+ **DECIMAL (Base 10)**  
+   - Dígitos: 0-9  
+   - Conversión a binario:  
+     25 ÷ 2 = 12 (1)  
+     12 ÷ 2 = 6 (0)  
+     6 ÷ 2 = 3 (0)  
+     3 ÷ 2 = 1 (1)  
+     1 ÷ 2 = 0 (1) → 11001₂  
+
+ **HEXADECIMAL (Base 16)**  
+   - Dígitos: 0-9, A-F  
+   - Ejemplos:  
+     - A3₁₆ = 10×16 + 3 = 163₁₀  
+     - 45₁₀ → 2D₁₆ (45÷16=2 resto 13(D), 2÷16=0 resto 2) 
 
 ## Importancia de las conversiones
 
