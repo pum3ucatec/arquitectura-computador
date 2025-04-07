@@ -149,9 +149,6 @@ Es el estándar más común. Utiliza **7 bits** (o 8 bits en su versión extendi
 
 ---
 
-
-
-
 # 2.9. Método de Paridad para Detección de Errores
 
 ## Resumen
@@ -185,46 +182,3 @@ El método de paridad detecta errores en datos transmitidos añadiendo un bit ex
 * Códigos de Hamming (corrección de errores).
 * CRC (detección de errores múltiples).
 * Códigos Reed-Solomon (corrección de errores múltiples).
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
