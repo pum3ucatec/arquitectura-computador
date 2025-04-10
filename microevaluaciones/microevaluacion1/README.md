@@ -1,26 +1,16 @@
-# 📌 Instrucciones para la Actividad
+# Calculadora Binaria de Suma 🧮
 
-## 📝 Descripción
-Desarrollar un **conversor de bases numéricas** en el lenguaje de programación de su preferencia.
-
-## 📂 Estructura del Entregable
-- El código fuente debe estar dentro de una carpeta con el siguiente formato:
-  
-  ```
-  m1-GastonQuelali
-  ```
-  *(Reemplazar "GastonQuelali" con su nombre y apellido sin espacios.)*
-
-- Incluir un archivo `README.md` con la documentación sobre:
-  - **Proceso de compilación** (si aplica).
-  - **Instrucciones de ejecución**.
-  - **Ejemplo de uso**.
-
-## 🚀 Entrega
-Subir la carpeta completa con el código y la documentación al repositorio correspondiente.
+Una sencilla calculadora que permite sumar dos números binarios usando una interfaz gráfica construida con Tkinter en Python.
 
 ---
 
-📌 **Nota:** Asegúrese de probar el conversor antes de enviarlo para verificar su correcto funcionamiento.
+## 🚀 Características
 
-📌 **Nota:** Crear una rama `GastonQuelali/microevalucion1`
+- Validación de entrada para asegurar que solo se ingresen números binarios.
+- Interfaz amigable y fácil de usar.
+- Código modular organizado en carpetas: `controller`, `gui`, `utils`.
+
+---
+
+## 📁 Estructura
+
