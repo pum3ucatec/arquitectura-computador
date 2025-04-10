@@ -1,5 +1,8 @@
 ## TEMA 1
 
+
+![Electronica Digital](/doc/images/electronica-digital.jpg)
+
 # 1. INTRODUCCION A LA ELECTRONICA DIGITAL
 
 La electrónica digital es una rama de la electrónica que trabaja con señales digitales en lugar de analógicas. 
@@ -191,3 +194,7 @@ Sobrecarga de datos: La adición de bits extra incrementa el tamaño de la trans
 Complejidad: Algunos métodos como Hamming o Reed-Solomon requieren procesamiento adicional y hardware/software más complejo para su implementación.
 
 Limitación en detección: Ciertos códigos no pueden detectar errores múltiples o corregir más de un bit.
+
+## Bibliografia
+
+![Organización y arquitectura de computadores](/doc/images/libro-referencia.png)
