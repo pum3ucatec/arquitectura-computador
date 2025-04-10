@@ -9,8 +9,3 @@ Una sencilla calculadora que permite sumar dos números binarios usando una inte
 - Validación de entrada para asegurar que solo se ingresen números binarios.
 - Interfaz amigable y fácil de usar.
 - Código modular organizado en carpetas: `controller`, `gui`, `utils`.
-
----
-
-## 📁 Estructura
-
