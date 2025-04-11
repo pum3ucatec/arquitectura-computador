@@ -1,0 +1,32 @@
+1. Código ASCII (American Standard Code for Information Interchange)
+Usa 7 bits (originalmente) para representar 128 caracteres (letras mayúsculas/minúsculas, números, símbolos y caracteres de control).
+
+Luego se extendió a 8 bits (ASCII extendido, 256 caracteres) para incluir símbolos adicionales.
+
+Ejemplos de Letras en ASCII (Binario)
+Carácter	Código Decimal	Código Binario (8 bits)
+A	65	01000001
+a	97	01100001
+B	66	01000010
+b	98	01100010
+1	49	00110001
+@	64	01000000
+🔹 Limitación: ASCII solo soporta caracteres básicos en inglés.
+
+2. Unicode (UTF-8, UTF-16, UTF-32)
+Extiende ASCII para incluir caracteres de casi todos los idiomas (español con ñ, chino, árabe, emojis, etc.).
+
+Usa 1 a 4 bytes (8 a 32 bits) por carácter, dependiendo del formato:
+
+UTF-8: Compatible con ASCII (1 byte para caracteres básicos, más bytes para otros).
+
+UTF-16: Usa 2 o 4 bytes.
+
+UTF-32: Siempre usa 4 bytes.
+
+Ejemplos de Letras en Unicode (UTF-8 en binario)
+Carácter	Código Hexadecimal	Código Binario (UTF-8)
+ñ	U+00F1	11000011 10110001
+á	U+00E1	11000011 10100001
+€	U+20AC	11100010 10000010 10101100
+😊	U+1F60A	11110000 10011111 10011000 10001010
