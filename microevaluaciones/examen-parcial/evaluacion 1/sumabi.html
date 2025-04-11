@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Suma Binaria y Decimal</title>
+    <style>
+        body {
+            background-color: #57c4e5; 
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        /****************** ESTILOS CONTENEDOR *******************/
+        .container {
+            width: auto; /* Ajustar al contenido */
+            border: 1px solid #d1d646;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #212738;
+            background-color: #edf2ef;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        /****************** ESTILOS CABEZERA Y PIE *******************/
+        .header, .footer {
+            background-color: #212738;
+            color: white;
+        }
+        .header {
+            text-align: center;
+            padding: 5px;
+        }
+        .footer {
+            text-align: right;
+            padding: 10px;
+        }
+        .content {
+            padding: 20px;
+        }
+        /****************** ESTILOS TABLA *******************/
+        table {
+            width: 100%;
+            border-spacing: 10px;
+        }
+        td {
+            padding: 5px;
+        }
+        input, select {
+            padding: 5px;
+            width: 100%; /* Mismo ancho */
+            box-sizing: border-box; /* Incluir padding en el ancho */
+            resize: horizontal; /* Permitir redimensionar horizontalmente */
+        }
+        input[disabled] {
+            background-color: #f0f0f0;
+        }
+        /****************** ESTILOS BOTONES ********************/
+        .buttons {
+            display: flex;
+            justify-content: flex-end; /* Alinear botones a la derecha */
+            margin-top: 10px;
+        }
+        .buttons button {
+            background-color: #f97068;
+            width: auto; /* Ajustable */
+            margin-left: 10px; /* Espaciado entre botones */
+            padding: 10px 20px; /* Tamaño consistente */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons button:hover {
+            background-color: #e85b57; /* Cambiar color al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header" id="header">
+            <h1 style="text-align: center; font-size: 25px; color: white;">Calculadora de Suma Binaria y Decimal - Version </h1> 
+        </div>
+        <div class="content">
+            <table>
+                <tr>
+                    <td><label for="num_principal">Numero 1 binario:</label></td>
+                    <td><input type="text" id="num1_bi" onblur="convertir_a_decimal()"></td>
+                    <td><label for="base1">Numero 1 decimal:</label></td>
+                    <td><input type="text" id="num1_dec" onblur="convertir_a_binario()"></td>
+                </tr>
+                <tr>
+                    <td><label for="num_secundario">Numero 2 binario:</label></td>
+                    <td><input type="text" id="num2_bi" onblur="convertir_a_decimal_2()"></td>
+                    <td><label for="base2">Numero 2 decimal:</label></td>
+                    <td><input type="text" id="num2_dec" onblur="convertir_a_binario_2()"></td>
+                </tr>
+                <tr>
+                    <td><label for="resultado">Resultado binario:</label></td>
+                    <td><input type="text" id="resultado" disabled></td>
+                    <td><label for="resultado_dec">Resultado decimal:</label></td>
+                    <td><input type="text" id="resultado_dec" disabled></td>
+                </tr>
+            </table>
+            <div class="buttons">
+                <button onclick="sacarResultado()">Procesar</button>
+                <button onclick="limpiar_pantalla()">Limpiar</button>
+            </div>
+        </div>
+        <div class="footer" id="footer">
+            <h2 style="text-align: right; font-size: 10px; color: white;">Disenado por: </h2>
+        </div>
+    </div>
+    <script src="sumabi.js"></script>
+</body>
+</html>
