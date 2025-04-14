@@ -52,3 +52,11 @@ El programa contiene tres clases internas:
 
 ## 📄 Licencia
 Este proyecto es de código abierto y puede ser utilizado libremente para fines educativos.
+
+```
+javac -d bin $(find . -name "*.java")
+```
+
+```
+java -cp bin Main
+```
