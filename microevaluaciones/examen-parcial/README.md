@@ -24,3 +24,6 @@ Subir la carpeta completa con el código y la documentación al repositorio corr
 📌 **Nota:** Asegúrese de probar el conversor antes de enviarlo para verificar su correcto funcionamiento.
 
 📌 **Nota:** Crear una rama `GastonQuelali/ExamenParcial`
+
+## Ingregar con la rama `integration`
+Para integrar con esta rama se necesita hacer un merge a esta rama
