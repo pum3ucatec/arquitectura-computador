@@ -1,0 +1,24 @@
+# Archivos de clase compilados
+*.class
+
+# Directorios de compilación comunes
+/bin/
+/build/
+
+# Archivos generados por IDEs
+*.log
+*.tmpn
+*.swp
+
+# Configuración específica de IntelliJ IDEA
+*.iml
+.idea/
+
+# Configuración específica de Eclipse
+*.classpath
+*.project
+.settings/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
