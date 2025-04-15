@@ -14,7 +14,12 @@ Una sencilla calculadora que permite sumar dos números binarios usando una inte
 -python3 main.py
 # Como aser correr el programa segunda opcion 
 damos clic en main.py luego
+
 ![alt text](image.png)
+
 Presionamos start Debugging
+
 ![alt text](image-1.png)
+
+
 con eso completariamos 
