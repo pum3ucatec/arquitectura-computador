@@ -15,7 +15,7 @@ git clone https://github.com/pum3ucatec/arquitectura-computador.git cd arquitect
 
 2. Ejecutar el programa:
 
-python suma_binaria.py
+python CalculadoraBinaria.py
 
 El programa te pedirá ingresar dos números binarios. Validará la entrada y mostrará el resultado en binario.
 
@@ -27,7 +27,7 @@ También podés ejecutar pruebas automáticas para verificar el correcto funcion
 
 Cuando ejecutes:
 
-python suma_binaria.py
+python CalculadoraBinaria.py
 
 El programa te preguntará:
 
@@ -39,8 +39,8 @@ Elegí `t` para ver los resultados de las pruebas con múltiples casos de suma b
 
 ## 📦 Estructura del proyecto
 
-- suma_binaria.py     → Script principal con calculadora y pruebas automáticas  
-- README.md           → Documentación del proyecto
+- CalculadoraBinaria.py     → Script principal con calculadora y pruebas automáticas  
+- README.md                 → Documentación del proyecto
 
 ---
 
