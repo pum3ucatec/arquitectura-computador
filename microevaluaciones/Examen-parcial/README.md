@@ -11,6 +11,7 @@ Una sencilla calculadora que permite sumar dos números binarios usando una inte
 - Código modular organizado en carpetas: `controller`, `gui`, `utils`.
 # Como aser correr el programa
 -python3 --version
+
 -python3 main.py
 # Como aser correr el programa segunda opcion 
 damos clic en main.py luego
