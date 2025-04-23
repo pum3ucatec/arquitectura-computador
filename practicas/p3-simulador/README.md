@@ -96,6 +96,6 @@ A continuación, se presentan 10 ejercicios para practicar el diseño de circuit
 **Recomendaciones**
 1. Crear una carpeta dentro de la carpeta `practicas/p3-simulador` con el siguiente formato `p3-GastonQuelali`
 2. Se puede utilizar esta el siguiente [simulador](https://circuitverse.org/)
-3. Crear un archivo `Respuesta.md` dentro la carpeta, con los enlaces correspondientes.
+3. Crear un archivo `Respuesta.md` dentro la carpeta, con los enlaces correspondientes y las tablas de verdad.
 
 📌 **Nota:** Crear una rama `GastonQuelali/practica3`
