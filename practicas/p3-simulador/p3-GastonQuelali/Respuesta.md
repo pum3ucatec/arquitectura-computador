@@ -1,4 +1,4 @@
-1. Enlace simulador de la [respuesta 1}(https://circuitverse.org/users/308909/projects/respuesta-1)
+1. Enlace simulador de la [respuesta 1](https://circuitverse.org/users/308909/projects/respuesta-1)
 
 # Tabla de Verdad para la Función Lógica
 **Función:** F = A · B + ¬C
