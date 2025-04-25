@@ -1,7 +1,7 @@
 
 # Práctica 3 - Funciones Lógicas con Compuertas
 
-**Nombre:** Gaston Quelali  
+**Nombre:** Jhair Colque  
 **Rama:** JhairColque/practica3
 
 ---
