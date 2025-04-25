@@ -33,7 +33,6 @@ Esta función tiene tres variables de entrada: A, B y C. Se utilizan las siguien
   - A y B están activados simultáneamente, o
   - C está desactivado.
 
----
 ------------------------
 
 2. Enlace simulador de la [respuesta 2](https://circuitverse.org/users/309145/projects/respuesta-2-a8bfea0b-38d4-4d41-bcfd-343fe6c6c696)
@@ -48,17 +47,18 @@ Esta función tiene tres variables de entrada: A, B y C. Se utilizan las siguien
 · → AND (multiplicación lógica)
 
 ## ----♠-Tabla de Verdad---♠---
-
-A | B | C | A + B | (A + B) · C = F| 
-0 | 0 | 0 | 0     |          0     |  
-0 | 0 | 1 | 0     |          0     | 
-0 | 1 | 0 | 1     |          0     | 
-0 | 1 | 1 | 1     |          1     | 
-1 | 0 | 0 | 1     |          0     |  
-1 | 0 | 1 | 1     |          1     | 
-1 | 1 | 0 | 1     |          0     | 
-1 | 1 | 1 | 1     |          1     | 
-
+----------------------------------------
+| A | B | C  | A + B | (A + B) · C = F |
+|---|---|----|-------|-----------------|
+| 0 | 0 | 0  |   0   |        0        |
+| 0 | 0 | 1  |   0   |        0        |
+| 0 | 1 | 0  |   1   |        0        |
+| 0 | 1 | 1  |   1   |        1        |
+| 1 | 0 | 0  |   1   |        0        |
+| 1 | 0 | 1  |   1   |        1        |
+| 1 | 1 | 0  |   1   |        0        |
+| 1 | 1 | 1  |   1   |        1        |
+----------------------------------------
 # Explicación
 Primero se hace la suma lógica: A + B
 
@@ -68,7 +68,7 @@ La salida F será igual a 1 solamente cuando C sea 1 y al menos uno de A o B tam
 
 Es decir, C activa la salida solo si A o B está activo.
 
---------------------------
+
 ---------------------------
 3. Enlace simulador de la [respuesta 3](https://circuitverse.org/users/309145/projects/respuesta-3-091ce02b-8c0b-4be0-a7d2-eceec7386965)
 
@@ -98,7 +98,6 @@ La salida F será igual a 1 en todos los casos excepto cuando A y B sean ambos 1
 
 Esta función también se puede implementar directamente con una compuerta NAND.
 
---------------
 --------------
 4. Enlace simulador de la [respuesta 4](https://circuitverse.org/users/309145/projects/respuesta-4-520cabd3-1b70-47ca-a6ac-19bf47c59ff2)
 
@@ -145,8 +144,8 @@ A ⊕ B se activa si A y B son diferentes.
 El resultado F será 1 si al menos una de estas dos condiciones se cumple.
 
 ---------------------
-----------------------
-------------------------
+
+
 
 5. Enlace simulador de la [respuesta 5](https://circuitverse.org/users/309145/projects/respuesta-5-21a43a86-d27f-4b53-bbc5-4e05583f7a3b)
 
@@ -181,7 +180,6 @@ Luego, ¬(A + B + C) será 1 solo si todas las entradas son 0.
 Esta función también se puede implementar directamente con una compuerta NOR.
 
 --------
-------------
 
 6. Enlace simulador de la [respuesta 6](https://circuitverse.org/users/309145/projects/respuesta-6-1c1f7e8d-08b5-4583-a2b2-f14804660f9b)
 
@@ -226,7 +224,7 @@ C ⊕ D se activa si C y D son diferentes
 
 La salida F es 1 si al menos una de esas dos condiciones es verdadera
 
-----------
+
 -------------------
 7. Enlace simulador de la [respuesta 7](https://circuitverse.org/users/309145/projects/respuesta-7-9c8a8e0a-4603-43ae-a5c0-4ebef8057177)
 
@@ -398,9 +396,8 @@ A y B son diferentes y C = 0, o
 D = 1
 
 ---------------------
----------------------------
-# ----------------AUTOR: FERNANDO SAAVEDRA-----------------♠
-# ---------------------------------------------------------♠
 
 
-
+# ---------------------------------------------------------
+# ----------------AUTOR: FERNANDO SAAVEDRA-----------------
+# ---------------------------------------------------------
