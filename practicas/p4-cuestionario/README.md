@@ -31,5 +31,3 @@
 28. Explica la función de los tres tipos principales de **buses del sistema**: Bus de Datos, Bus de Direcciones y Bus de Control.  
 29. Describe las **fases clave** del **ciclo de instrucción**.  
 30. ¿Qué es el **repertorio de instrucciones** y por qué es fundamental en la arquitectura del computador?  
-31. Según las fuentes, ¿en qué **categorías generales** se clasifican las operaciones que realizan las instrucciones máquina?  
-32. ¿Cuáles son los **tipos de operandos** con los que pueden trabajar las instrucciones máquina?
